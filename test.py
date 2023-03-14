@@ -122,8 +122,6 @@ for qidx in range( num_quality ):
 
     for img_name, true_name in zip(images, true_list):
         img_id += 1
-        if img_id > 2:
-            break
         true_label_dir = os.path.join(true_dir, true_name)
         true_label = np.array(Image.open(true_label_dir).convert("L"), dtype="int")
 
