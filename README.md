@@ -26,12 +26,12 @@ This code requires:
 * nose
 * ninja
 
-    # Get Top-K Multi-Scale Semantic Sgementation Code
-    git clone --recursive https://github.com/yumoriyasu/topk-multiscale
-    cd topk-multiscale
+'# Get Top-K Multi-Scale Semantic Sgementation Code
+git clone --recursive https://github.com/yumoriyasu/topk-multiscale
+cd topk-multiscale
 
-    # Get Semantic Segmentation Source Code
-    git clone --recursive https://github.com/NVIDIA/semantic-segmentation.git
+# Get Semantic Segmentation Source Code
+git clone --recursive https://github.com/NVIDIA/semantic-segmentation.git'
 
 Our code requires:
 * imagedegrade
@@ -42,5 +42,5 @@ Link : https://github.com/mastnk/imagedegrade
 
 ## Demo
 You need to write the settings in test.sh
-    # Demo of Semantic Segmentation for Degradation
-    sh test.sh
+'# Demo of Semantic Segmentation for Degradation
+ sh test.sh'
