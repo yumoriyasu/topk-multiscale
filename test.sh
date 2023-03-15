@@ -6,6 +6,8 @@
 # true_label_dir is Cityscapes True Labels Directory
 # Labels' name "~~-gtFine_labelIds.png"
 
+mkdir -p result
+
 python test.py --image_dir ./Cityscapes/images \
     --true_label_dir ./Cityscapes/true_label \
     --snapshot ./pretrained_models/cityscapes_best.pth \
