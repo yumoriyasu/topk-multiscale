@@ -50,7 +50,7 @@ true_label_dir is Cityscapes true labels directory.
 Labels' name are "~-gtFine_labelIds.png"
 
 You can try four types of degradation: JPEG compression, Gaussian noise, Gaussian blur, and N+J compound degradation.
-For each, set noise_type to jpeg, noise, blur, or noise+jpegt.
+For each, set noise_type to jpeg, noise, blur, or noise+jpeg.
 
 ```
 # Demo of Semantic Segmentation for Degradation
